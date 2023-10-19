@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Register-Login</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../image/residential-8278516_1280 (1).jpg"
+      type="image/x-icon"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="form.css" />
+  </head>
+
+  <body  class="bg_image">
+    <!-- Start Codes -->
+<div>
+    <h1 class="heading">Register / Login</h1>
+    <p class="paragraf" style="text-align: center">
+      Register / Login - Html -css -RD - Bootstrap - Javascript jquery Lorem ipsum dolor
+      sit amet consectetur adipisicing elit.
+    </p>
+
+    <!-- Container -->
+
+    <div>
+      <form action="#" method="get" autocomplete="on">
+        <div >
+        <fieldset id="container_id">
+          <legend>Register</legend>
+          <table>
+            <!-- NAME -->
+            <tr>
+              <td>
+                <label for="uname">Adınız: </label>
+              </td>
+              <td>
+                <div class="div_input_class">
+                  <i class="icon_class fa-solid fa-circle-user"></i>
+                  <input
+                    type="text"
+                    class="input_class"
+                    name="uname"
+                    id="uname"
+                    placeholder="Adınız..."
+                    required
+                    autofocus
+                    title="Adınızı giriniz !"
+                  />
+                </div>
+              </td>
+            </tr>
+
+            <!-- SURNAME -->
+            <tr>
+              <td>
+                <label for="usurname">Soyadınız: </label>
+              </td>
+              <td>
+                <div class="div_input_class">
+                  <i class="icon_class fa-solid fa-circle-user"></i>
+                  <input
+                    type="text"
+                    class="input_class"
+                    name="usurname"
+                    id="usurname"
+                    placeholder="Soyadınız ..."
+                    required
+                    title="Soyadınız giriniz !"
+                  />
+                </div>
+              </td>
+            </tr>
+
+            <!-- EMAIL -->
+            <tr>
+              <td>
+                <label for="uemail">Emailiniz: </label>
+              </td>
+              <td>
+                <div class="div_input_class">
+                  <i class="icon_class fa-solid fa-envelope"></i>
+                  <input
+                    type="email"
+                    class="input_class"
+                    name="uemail"
+                    id="uemail"
+                    placeholder="Emailiniz ..."
+                    required
+                    title="Emailinizi giriniz !"
+                  />
+                </div>
+              </td>
+            </tr>
+
+            <!-- PASSWORD -->
+            <tr>
+              <td>
+                <label for="upassword">Şifreniz: </label>
+              </td>
+              <td>
+                <div class="div_input_class">
+                  <i class="icon_class fa-solid fa-key"></i>
+                  <input
+                    type="password"
+                    class="input_class"
+                    name="upassword"
+                    id="upassword"
+                    placeholder="Şifreniz ..."
+                    required
+                    title="Şifreniz giriniz !"
+                  />
+                </div>
+              </td>
+            </tr>
+
+            <!-- GENDER -->
+            <tr>
+              <td>
+                <label><i class="fa-solid fa-venus-mars"></i> </label>
+              </td>
+              <td>
+                <div style="margin: 1rem auto ;">
+                <!-- <div class="div_input_class"></div> -->
+                <input
+                  type="radio"
+                  name="gender"
+                  id="woman"
+                  checked
+                  title="Kadın"
+                />Kadın
+                <input type="radio" name="gender" id="men" title="Erkek" />Erkek
+              </div>
+              </td>
+            </tr>
+          
+            <!-- READ ME -->
+            <tr>
+              <td>
+                <label><i class="fa-solid fa-book-open-reader"></i> </label>
+              </td>
+              <td>
+                <div style="margin: 1rem auto ;">
+                <input
+                  type="checkbox"
+                  name="readme"
+                  id="readme"
+                  title="Bayan"
+                /> Is Read Me ?
+                </div>
+              </td>
+            </tr>
+
+            <!-- SEND -->
+            <tr>
+              <td>
+                <label>Send: </label>
+              </td>
+              <td>
+                <div class="btn_button">
+                  <button
+                  type="reset"
+                  name="reset"
+                  id="reset"
+                  title="Temizle"
+                ><b>Temizle
+                  <button
+                    style="margin-left: 5%;"
+                    type="submit"
+                    name="submit"
+                    id="submit"
+                    title="Gönder"
+                  >
+                    <b>Gönder
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+      </form>
+    </div>
+
+    <!-- LOGİN -->
+    <div>
+      <fieldset id="container_id">
+        <legend>Login</legend>
+        <table>
+          <tr>
+            <td>
+              <label for="uemail">Emailiniz: </label>
+            </td>
+            <td>
+              <div class="div_input_class">
+                <i class="icon_class fa-solid fa-envelope"></i>
+                <input
+                  type="email"
+                  class="input_class"
+                  name="uemail"
+                  id="uemail"
+                  placeholder="Emailiniz ..."
+                  required
+                  title="Emailinizi giriniz !"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="upassword">Şifreniz: </label>
+            </td>
+            <td>
+              <div class="div_input_class">
+                <i class="icon_class fa-solid fa-key"></i>
+                <input
+                  type="password"
+                  class="input_class"
+                  name="upassword"
+                  id="upassword"
+                  placeholder="Şifreniz ..."
+                  required
+                  title="Şifreniz giriniz !"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><i class="fa-regular fa-bookmark"></i> </label>
+            </td>
+            <td>
+              <div style="margin: 1rem auto ;">
+              <input
+                type="checkbox"
+                name="readme"
+                id="readme"
+                title="Bayan"
+              /> Remember Me !
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Send: </label>
+            </td>
+            <td>
+              <div class="btn_button">
+                <button
+                type="login"
+                name="login"
+                id="login"
+                title="Login"
+                style="margin-left: 10%; width: 40%;"
+              >Login
+              </button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+  </div>
+    <!-- end Codes -->
+  </body>
+</html>

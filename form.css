@@ -1,0 +1,141 @@
+/*
+Project Name        : Register
+Project Author      : Ahmet İncekara
+Project Date        : 18/10/2023
+Project Version     : v1.0.0
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common */
+/* Root */
+:root{
+    --template_bg_color: black;
+    --template_color: white!important;
+    --icon_color:purple!important;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    position: relative;
+    background-color: var(--template_bg_color);
+    color: var(--template_color);
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*------------------------------------------*/
+/* Heading */
+.heading{
+text-align: center;
+text-transform: uppercase;
+font-size: 2.5rem;
+margin-top: 2rem;
+}
+
+/* Paragraf */
+.paragraf{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 2rem auto;
+}
+
+/*Container*/
+#container_id{
+    width: 40%;
+    position: relative;
+    margin: 0 auto 5rem auto;
+    padding: 2rem;
+    font-size: 1rem;
+    background-color: black;
+    opacity: 0.8;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    -moz-box-shadow: 10px 10px 40px 10px rgba(255, 255,255,0.8);
+    -webkit-box-shadow: 10px 10px 40px 10px rgba(255, 255,255,0.8);
+    box-shadow: 10px 10px 40px 10px rgba(255, 255,255,0.8);
+}
+
+/* INPUT */
+
+
+/* ICON */
+.icon_class{
+    position: absolute;
+    color: var(--icon_color);
+    font-size: 1rem;
+    margin-top: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.input_class{
+    width: 100%;
+    border: none;
+    /* border: 0.1px solid whitesmoke; */
+    outline: none;
+    background-color: transparent;
+    color: var(--template_color);
+    font-size: 0.9rem;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.input_class:focus{
+    background-color:white;
+    color: black;
+}
+
+
+/* BUTTON */
+.btn_button{
+    margin-top: 0.8rem;
+}
+
+.btn_button button,input[type="reset"]{
+    background-color: blue;
+    color: rgb(184, 143, 184);
+    padding: 0.4rem 0.5rem;
+    transition: 3s all;
+}
+
+.btn_button button:hover,input[type="reset"]:hover{
+    cursor: pointer;
+    background-color: rgb(184, 143, 184);
+    color: blue;
+    transition: ease-in 2s all;
+}
+
+
+.bg_image{
+    background-image: url(../image/back3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center center;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+label{
+    padding: 1rem;
+}
